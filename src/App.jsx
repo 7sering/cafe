@@ -1,9 +1,11 @@
+import { Hero, Menu, Navbar } from "./components";
+
 function App() {
   return (
     <>
-      <h2 className="text-2xl font-bold text-center pt-5 text-white">
-        Cafe Project
-      </h2>
+      <Navbar />
+      <Hero />
+      <Menu />
     </>
   );
 }
