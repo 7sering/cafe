@@ -1,4 +1,12 @@
-import { Hero, Menu, Navbar, Footer } from "./components";
+import {
+  Hero,
+  Menu,
+  Navbar,
+  Footer,
+  Gallery,
+  Location,
+  Contact,
+} from "./components";
 
 function App() {
   return (
@@ -6,6 +14,9 @@ function App() {
       <Navbar />
       <Hero />
       <Menu />
+      <Gallery />
+      <Location />
+      <Contact />
       <Footer />
     </>
   );
