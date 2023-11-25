@@ -12,7 +12,7 @@ const Navbar = () => {
     <>
       <div className="bg-[#171711]  opacity-90">
         <div className="container mx-auto hidden md:flex text-white justify-between py-1 text-sm opacity-70">
-          <p>Call: 9789789789</p>
+          <p>Call: 01-5252523</p>
           <p>Mon-Fri: 8AM to 2PM Sat-Sun 10AM-4PM</p>
         </div>
       </div>
@@ -20,7 +20,7 @@ const Navbar = () => {
       <nav className="bg-[#171711] p-2 opacity-80 ">
         <div className="container mx-auto flex items-center justify-between">
           {/* Logo  */}
-          <div className="text-white text-2xl font-bold">Cafe Rider</div>
+          <div className="text-white text-2xl font-bold">BeCafe</div>
 
           {/* Mobile Menu Icon */}
           <div className="md:hidden">
@@ -40,21 +40,21 @@ const Navbar = () => {
           </div>
 
           {/* Menu */}
-          <ul className="hidden md:flex space-x-4 text-[1rem] uppercase">
+          <ul className="hidden md:flex space-x-8 text-[1rem] uppercase">
             <li className="text-white  hover:text-orange-700">
-              <a href="">Home</a>
+              <a href="/">Home</a>
             </li>
             <li className="text-white hover:text-orange-700">
-              <a href="">About</a>
+              <a href="/menu">Menu</a>
             </li>
             <li className="text-white hover:text-orange-700">
-              <a href="">Service</a>
+              <a href="/gallery">Gallery</a>
             </li>
             <li className="text-white hover:text-orange-700">
-              <a href="">Blog</a>
+              <a href="/location">Location</a>
             </li>
             <li className="text-white hover:text-orange-700">
-              <a href="">Contact</a>
+              <a href="/service">Contact</a>
             </li>
           </ul>
         </div>
