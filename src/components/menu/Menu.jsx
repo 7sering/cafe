@@ -18,12 +18,13 @@ const Menu = () => {
 
   useEffect(() => {
     setCategories(["All", ...new Set(data.map((item) => item.category))]);
+    // setCategories(["Coffee", "Brunch", "Dessert"]);
   }, [menus]);
   return (
     <>
       <div className="bg-[#160D0B] py-16 text-white">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-center pt-5 font-bold text-3xl">MENU</h1>
+          <h1 className="text-center pt-5 font-bold text-3xl">OUR MENU</h1>
           {/* Buttons */}
           <div className="flex gap-2 justify-center my-3">
             <Button categories={categories} filteredMenu={filteredMenu} />

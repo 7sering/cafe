@@ -1,7 +1,7 @@
 const data = [
   {
     id: 1,
-    title: "Espresso Coffee",
+    title: "Espresso ",
     price: 5.99,
     category: "Coffee",
     image:
@@ -9,7 +9,7 @@ const data = [
   },
   {
     id: 2,
-    title: "Americano Coffee",
+    title: "Latte",
     price: 3.99,
     category: "Coffee",
     image:
@@ -17,15 +17,15 @@ const data = [
   },
   {
     id: 3,
-    title: "Strawberry Cake",
+    title: "Flat White",
     price: 6.99,
-    category: "Dessert",
+    category: "Coffee",
     image:
       "https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     id: 4,
-    title: "Latte Coffee",
+    title: "Affogato",
     price: 5.99,
     category: "Coffee",
     image:
@@ -33,7 +33,7 @@ const data = [
   },
   {
     id: 5,
-    title: "Milk Coffee",
+    title: "Americano",
     price: 2.99,
     category: "Coffee",
     image:
@@ -42,31 +42,31 @@ const data = [
 
   {
     id: 6,
-    title: "Milk Cake",
+    title: "Long Black",
     price: 5.99,
-    category: "Dessert",
+    category: "Coffee",
     image:
       "https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     id: 7,
-    title: "Tost with Omelet",
+    title: "Marocchino",
     price: 5.99,
-    category: "Brunch",
+    category: "Coffee",
     image:
       "https://images.pexels.com/photos/103124/pexels-photo-103124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     id: 8,
-    title: "Mix Fruit",
+    title: "Macchiato",
     price: 5.99,
-    category: "Brunch",
+    category: "Coffee",
     image:
       "https://images.pexels.com/photos/128865/pexels-photo-128865.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     id: 9,
-    title: "Espresso Coffee",
+    title: "Mazagran",
     price: 5.99,
     category: "Coffee",
     image:
@@ -74,7 +74,7 @@ const data = [
   },
   {
     id: 10,
-    title: "Americano Coffee",
+    title: "Espresso",
     price: 3.99,
     category: "Coffee",
     image:
@@ -82,7 +82,7 @@ const data = [
   },
   {
     id: 11,
-    title: "Strawberry Cake",
+    title: "Caffe Mocha",
     price: 6.99,
     category: "Dessert",
     image:
@@ -90,7 +90,7 @@ const data = [
   },
   {
     id: 12,
-    title: "Latte Coffee",
+    title: "Ristretto",
     price: 5.99,
     category: "Coffee",
     image:
@@ -98,7 +98,7 @@ const data = [
   },
   {
     id: 13,
-    title: "Milk Coffee",
+    title: "Lungo",
     price: 2.99,
     category: "Coffee",
     image:
@@ -107,23 +107,23 @@ const data = [
 
   {
     id: 14,
-    title: "Milk Cake",
+    title: "Dppio",
     price: 5.99,
-    category: "Dessert",
+    category: "Coffee",
     image:
       "https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     id: 15,
-    title: "Tost with Omelet",
+    title: "Cold Brew",
     price: 5.99,
-    category: "Brunch",
+    category: "Coffee",
     image:
       "https://images.pexels.com/photos/103124/pexels-photo-103124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     id: 16,
-    title: "Mix Fruit",
+    title: "Cuban Espresso",
     price: 5.99,
     category: "Brunch",
     image:
@@ -131,7 +131,7 @@ const data = [
   },
   {
     id: 17,
-    title: "Latte Coffee",
+    title: "Coratado",
     price: 5.99,
     category: "Coffee",
     image:
@@ -139,7 +139,7 @@ const data = [
   },
   {
     id: 18,
-    title: "Milk Coffee",
+    title: "Frappe",
     price: 2.99,
     category: "Coffee",
     image:
@@ -148,17 +148,17 @@ const data = [
 
   {
     id: 19,
-    title: "Milk Cake",
+    title: "Cafe au lait",
     price: 5.99,
-    category: "Dessert",
+    category: "Coffee",
     image:
       "https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     id: 20,
-    title: "Tost with Omelet",
+    title: "Caffea Arabica",
     price: 5.99,
-    category: "Brunch",
+    category: "Coffee",
     image:
       "https://images.pexels.com/photos/103124/pexels-photo-103124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
@@ -189,9 +189,105 @@ const data = [
 
   {
     id: 24,
-    title: "Milk Cake",
+    title: "Cheese Cake",
     price: 5.99,
     category: "Dessert",
+    image:
+      "https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  },
+  {
+    id: 25,
+    title: "Apple Pie",
+    price: 5.99,
+    category: "Dessert",
+    image:
+      "https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  },
+  {
+    id: 26,
+    title: "Creme Caramel",
+    price: 5.99,
+    category: "Dessert",
+    image:
+      "https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  },
+  {
+    id: 27,
+    title: "Creme Brulee",
+    price: 5.99,
+    category: "Dessert",
+    image:
+      "https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  },
+  {
+    id: 28,
+    title: "Key Lime Pie",
+    price: 5.99,
+    category: "Dessert",
+    image:
+      "https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  },
+  {
+    id: 29,
+    title: "Trimisu",
+    price: 5.99,
+    category: "Dessert",
+    image:
+      "https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  },
+  {
+    id: 30,
+    title: "Chocolate Brownine",
+    price: 5.99,
+    category: "Dessert",
+    image:
+      "https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  },
+  {
+    id: 31,
+    title: "Pecan Pie",
+    price: 5.99,
+    category: "Dessert",
+    image:
+      "https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  },
+  {
+    id: 32,
+    title: "Baked Alaska",
+    price: 5.99,
+    category: "Dessert",
+    image:
+      "https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  },
+  {
+    id: 33,
+    title: "Pudding",
+    price: 5.99,
+    category: "Dessert",
+    image:
+      "https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  },
+  {
+    id: 34,
+    title: "Banana Pudding",
+    price: 5.99,
+    category: "Dessert",
+    image:
+      "https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  },
+  {
+    id: 35,
+    title: "Chicken MOMO",
+    price: 5.99,
+    category: "Brunch",
+    image:
+      "https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  },
+  {
+    id: 36,
+    title: "Laphing",
+    price: 5.99,
+    category: "Brunch",
     image:
       "https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
