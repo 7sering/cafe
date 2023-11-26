@@ -7,7 +7,7 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  console.log(isMenuOpen);
+  // console.log(isMenuOpen);
   return (
     <>
       <div className="bg-[#241310]  opacity-90">

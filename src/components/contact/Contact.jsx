@@ -1,4 +1,4 @@
-import Coffee from "../../../public/coffe.png";
+import Coffee from "/coffe.png";
 
 const Contact = () => {
   return (
