@@ -4,7 +4,7 @@ import {
   Navbar,
   Footer,
   Gallery,
-  Location,
+  Blog,
   Contact,
 } from "./components";
 
@@ -15,7 +15,7 @@ function App() {
       <Hero />
       <Menu />
       <Gallery />
-      <Location />
+      <Blog />
       <Contact />
       <Footer />
     </>

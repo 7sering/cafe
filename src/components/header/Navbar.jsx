@@ -42,20 +42,20 @@ const Navbar = () => {
           {/* Menu */}
           <ul className="hidden md:flex space-x-8 text-[1rem] uppercase">
             <li className="text-white  hover:text-orange-700">
-              <a href="/">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li className="text-white hover:text-orange-700">
-              <a href="/menu">Menu</a>
+              <a href="#menu">Menu</a>
             </li>
             <li className="text-white hover:text-orange-700">
-              <a href="/gallery">Gallery</a>
+              <a href="#gallery">Gallery</a>
             </li>
             <li className="text-white hover:text-orange-700">
-              <a href="/location">Location</a>
+              <a href="/#blog">Blog</a>
             </li>
 
             <li className="text-white hover:text-orange-700">
-              <a href="/service">Contact</a>
+              <a href="#service">Contact</a>
             </li>
           </ul>
         </div>
