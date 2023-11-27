@@ -53,6 +53,7 @@ const Navbar = () => {
             <li className="text-white hover:text-orange-700">
               <a href="/location">Location</a>
             </li>
+
             <li className="text-white hover:text-orange-700">
               <a href="/service">Contact</a>
             </li>
