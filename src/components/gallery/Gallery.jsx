@@ -1,7 +1,7 @@
 const Gallery = () => {
   return (
     <>
-      <div className="bg-orange-900">
+      <div className="bg-orange-900 relative">
         <div className="flex flex-wrap items-center">
           <div className="w-2/4">
             <h2 className="pl-10 text-7xl font-bold text-white">
