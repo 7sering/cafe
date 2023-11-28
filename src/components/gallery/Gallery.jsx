@@ -22,6 +22,11 @@ const Gallery = () => {
           </div>
         </div>
       </div>
+      <div className="h-[350px]  bg-green-700">
+        <h2 className="text-center text-3xl font-bold py-8 text-white">
+          coming soon....
+        </h2>
+      </div>
     </>
   );
 };

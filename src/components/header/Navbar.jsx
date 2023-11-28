@@ -51,11 +51,11 @@ const Navbar = () => {
               <a href="#gallery">Gallery</a>
             </li>
             <li className="text-white hover:text-orange-700">
-              <a href="/#blog">Blog</a>
+              <a href="#blog">Blog</a>
             </li>
 
             <li className="text-white hover:text-orange-700">
-              <a href="#service">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>

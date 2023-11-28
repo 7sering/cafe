@@ -3,7 +3,7 @@ import Coffee from "/coffe.png";
 const Contact = () => {
   return (
     <>
-      <div className="bg-[#3e221c] py-5">
+      <div className="bg-[#3e221c] md:py-10">
         <h1 className="text-center text-3xl uppercase font-bold  text-white">
           Subscribe
         </h1>
@@ -24,7 +24,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="bg-[#180D0B] h-auto">
+      <div className="bg-[#180D0B] h-auto py-8">
         <div className="max-w-6xl mx-auto flex flex-col py-10  text-[#fff] ">
           <div className="flex flex-wrap px-3">
             <div className="md:w-1/3">
