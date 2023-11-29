@@ -22,7 +22,7 @@ const Menu = () => {
   }, [menus]);
   return (
     <>
-      <div className="bg-[#160D0B] py-16 text-white relative z-0">
+      <div className="bg-[#160D0B] py-5 text-white relative z-0">
         {/* <div
           className="h-screen w-full bg-cover absolute z-10 "
           style={{
@@ -41,7 +41,7 @@ const Menu = () => {
           </div>
 
           {/* Card */}
-          <div className="flex flex-wrap  mt-8 ">
+          <div className="flex flex-wrap pb-10 mt-8 ">
             <Card menus={menus} />
           </div>
         </div>

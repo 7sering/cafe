@@ -4,8 +4,8 @@ const Contact = () => {
   return (
     <>
       <div className="bg-[#3e221c] md:py-10">
-        <h1 className="text-center text-3xl uppercase font-bold  text-white">
-          Subscribe
+        <h1 className="text-center text-3xl uppercase font-bold  text-white tracking-widest">
+          stay with us
         </h1>
         <p className="text-center text-white pb-5 pt-2 text-sm">
           Subscribe our newsletter to stay updated every moment

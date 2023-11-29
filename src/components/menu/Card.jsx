@@ -6,17 +6,19 @@ const Card = ({ menus }) => {
           className="w-xl sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 mb-3"
           key={menu.id}
         >
-          <div className="flex justify-between bg-orange-900 mr-3 rounded-l-3xl rounded-r-1xl">
-            <div className="flex items-center">
+          <div className="md:flex md:justify-between  md:bg-orange-900 mr-3 md:rounded-l-3xl md:rounded-r-1xl ">
+            <div className="md:flex md:items-center ">
               <img
                 src={menu.image}
                 alt="img"
                 width="70"
                 className="rounded-md"
               />
-              <p className="pl-3 text-sm">{menu.title}</p>
+              <p className="md:pl-3 md:text-sm text-[10px]">{menu.title}</p>
             </div>
-            <p className="pt-3 pr-3 text-sm">$ {menu.price}</p>
+            <p className="md:pt-3 md:pr-3 md:text-sm  text-[10px]">
+              $ {menu.price}
+            </p>
           </div>
         </div>
       ))}
