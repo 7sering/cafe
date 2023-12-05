@@ -1,7 +1,7 @@
 const Gallery = () => {
   return (
     <>
-      <div className="bg-orange-900 mb-8 md:mb-0 mt-8 md:mt-0">
+      <div className="bg-orange-900 ">
         <div className="flex flex-wrap items-center">
           <div className="md:w-full lg:w-2/4">
             <h2 className="md:pl-10 px-3 pt-8 pb-2 md:text-7xl text-5xl font-bold text-white">
@@ -23,7 +23,7 @@ const Gallery = () => {
           </div>
         </div>
       </div>
-      <div className="bg-orange-900 mb-8 md:mb-0 mt-8 md:mt-0">
+      <div className="bg-orange-900 ">
         <div className="flex flex-wrap items-center">
           <div className="md:w-full lg:w-2/4">
             <img
