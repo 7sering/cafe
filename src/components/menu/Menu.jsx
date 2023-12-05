@@ -23,25 +23,17 @@ const Menu = () => {
   return (
     <>
       <div className="bg-[#160D0B] py-5 text-white relative z-0">
-        {/* <div
-          className="h-screen w-full bg-cover absolute z-10 "
-          style={{
-            backgroundImage: `url(${Leaf})`,
-            // backgroundImage: `url('')`,
-          }}
-        >
-          <div className="absolute inset-1 bg-black opacity-20 "></div>
-        </div> */}
-
         <div className="max-w-6xl mx-auto relative z-10 ">
-          <h1 className="text-center pt-5 font-bold text-3xl">OUR MENU</h1>
+          <h1 className="text-center pt-5 font-bold text-2xl md:text-3xl">
+            OUR MENU
+          </h1>
           {/* Buttons */}
-          <div className="flex gap-2 justify-center my-3">
+          <div className="flex gap-2 justify-center my-3 sm:my-6">
             <Button categories={categories} filteredMenu={filteredMenu} />
           </div>
 
           {/* Card */}
-          <div className="flex flex-wrap pb-10 mt-8 ">
+          <div className="flex flex-wrap pb-10 mt-8 sm:mt-12">
             <Card menus={menus} />
           </div>
         </div>

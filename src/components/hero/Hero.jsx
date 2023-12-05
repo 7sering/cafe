@@ -5,12 +5,12 @@ const Hero = () => {
         <img
           src="https://images.pexels.com/photos/1394841/pexels-photo-1394841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt=""
-          className=" w-full object-cover md:h-full"
+          className="w-full object-cover h-64 md:h-full" // Adjusted height for small screens
         />
         <div className="absolute inset-0 bg-black opacity-50 "></div>
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="max-w-5xl mx-auto text-center">
-            <h1 className="text-3xl md:text-8xl text-white uppercase font-bold mt-[-10px]">
+            <h1 className="text-2xl md:text-8xl text-white uppercase font-bold mt-[-10px] md:mt-0">
               Start a day with Fresh Coffee
             </h1>
             <div>
