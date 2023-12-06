@@ -31,7 +31,7 @@ const Contact = () => {
               <h1 className="text-2xl font-bold text-center md:text-left text-orange-700">
                 BeCafe Pvt.Ltd
               </h1>
-              {/* <hr width="50%" className="my-3" /> */}
+
               <hr className="my-3 mx-auto md:mx-0" width="50%" />
               <p className="text-sm pr-8 text-center md:text-left">
                 Welcome to BeCafe Pvt. Ltd, your haven for exceptional coffee
