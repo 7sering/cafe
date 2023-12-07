@@ -1,5 +1,3 @@
-import Coffee from "/coffe.png";
-
 const Contact = () => {
   return (
     <>
@@ -33,7 +31,7 @@ const Contact = () => {
               </h1>
 
               <hr className="my-3 mx-auto md:mx-0" width="50%" />
-              <p className="text-sm pr-8 text-center md:text-left">
+              <p className="text-sm md:pr-8 text-center md:text-left">
                 Welcome to BeCafe Pvt. Ltd, your haven for exceptional coffee
                 experiences. Crafted with passion, at our coffee shop
               </p>
@@ -94,7 +92,22 @@ const Contact = () => {
               </ul>
             </div>
             <div className="md:w-1/3  hidden md:flex">
-              <img src={Coffee} alt="coffee" width={200} />
+              <div>
+                <h2 className="text-2xl pb-5">Stay updated with us</h2>
+                <form>
+                  <input
+                    type="text"
+                    placeholder="Enter your email......."
+                    className="py-2 pl-2 outline-none mr-1"
+                  />
+                  <button className="bg-orange-900 text-white py-2 px-6 rounded-sm font-bold hover:bg-orange-700 transition duration-500 ease-linear">
+                    Submit
+                  </button>
+                </form>
+                <p className="py-3">
+                  Subscribe our newsletter to stay updated every moment
+                </p>
+              </div>
             </div>
           </div>
         </div>
