@@ -5,19 +5,21 @@ const Contact = () => {
         <img
           src="https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt=""
-          className="w-full object-cover h-[450px] md:h-[250px]" // Adjusted height for small screens
+          className="w-full object-cover h-auto md:h-[250px]" // Adjusted height for small screens
         />
         <div className="absolute inset-0 bg-black opacity-60 "></div>
         <div className="max-w-5xl mx-auto md:flex absolute inset-0 md:items-center text-white  md:justify-between">
-          <div className="w-[50%] capitalize">
-            <h1 className="text-5xl font-bold">
+          <div className="md:w-[50%] capitalize">
+            <h1 className="md:text-5xl text-3xl py-7 text-center md:text-left font-bold">
               your haven for exceptional coffee experiences
             </h1>
           </div>
           <div>
-            <button className="bg-orange-800 py-2 px-6 cursor-pointer  text-3xl font-bold hover:bg-orange-700 transition-all duration-500 ease-linear">
-              Call: 1234567890
-            </button>
+            <div className="flex">
+              <button className="bg-orange-800 py-2 px-6 rounded-md cursor-pointer mx-auto text-3xl font-bold hover:bg-orange-700 transition-all duration-500 ease-linear">
+                Call: 1234567890
+              </button>
+            </div>
           </div>
         </div>
       </section>
