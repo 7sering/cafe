@@ -1,26 +1,26 @@
 const Contact = () => {
   return (
     <>
-      <div className="bg-[#3e221c] md:py-10 p-3">
-        <h1 className="text-center text-3xl uppercase font-bold  text-white tracking-widest">
-          stay with us
-        </h1>
-        <p className="text-center text-white pb-5 pt-2 text-sm">
-          Subscribe our newsletter to stay updated every moment
-        </p>
-        <div className="flex items-center justify-center pb-5">
-          <form>
-            <input
-              type="text"
-              placeholder="Enter your email......."
-              className="py-2 pl-2 outline-none mr-1"
-            />
-            <button className="bg-orange-900 text-white py-2 px-6 rounded-sm font-bold hover:bg-orange-700 transition duration-500 ease-linear">
-              Submit
+      <section className="bg-[#3e221c]  relative">
+        <img
+          src="https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt=""
+          className="w-full object-cover h-[450px] md:h-[250px]" // Adjusted height for small screens
+        />
+        <div className="absolute inset-0 bg-black opacity-60 "></div>
+        <div className="max-w-5xl mx-auto md:flex absolute inset-0 md:items-center text-white  md:justify-between">
+          <div className="w-[50%] capitalize">
+            <h1 className="text-5xl font-bold">
+              your haven for exceptional coffee experiences
+            </h1>
+          </div>
+          <div>
+            <button className="bg-orange-800 py-2 px-6 cursor-pointer  text-3xl font-bold hover:bg-orange-700 transition-all duration-500 ease-linear">
+              Call: 1234567890
             </button>
-          </form>
+          </div>
         </div>
-      </div>
+      </section>
 
       <div className="bg-[#180D0B] h-auto py-8">
         <div className="max-w-6xl mx-auto flex flex-col py-10  text-[#fff] ">
