@@ -33,7 +33,7 @@ const Menu = () => {
           </div>
 
           {/* Card */}
-          <div className="flex flex-wrap pb-10 mt-8 sm:mt-12">
+          <div className="md:flex flex-wrap md:pb-10 mt-8 sm:mt-12 flex">
             <Card menus={menus} />
           </div>
         </div>
