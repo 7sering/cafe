@@ -8,13 +8,17 @@ const Card = ({ menus }) => {
         >
           <div className="md:flex md:justify-between  md:bg-orange-900 mr-3 md:rounded-l-3xl md:rounded-r-1xl ">
             <div className="md:flex md:items-center ">
-              <img
-                src={menu.image}
-                alt="img"
-                // width="40"
-                // height={40}
-                className="rounded-md h-[50px] w-[50px]"
-              />
+              <center>
+                {" "}
+                <img
+                  src={menu.image}
+                  alt="img"
+                  // width="40"
+                  // height={40}
+                  className="rounded-md h-[50px] w-[50px]"
+                />
+              </center>
+
               <p className="md:pl-3 md:text-sm text-[8px] text-center py-1">
                 {menu.title}
               </p>
