@@ -99,8 +99,8 @@ const Contact = () => {
                 <form>
                   <input
                     type="text"
-                    placeholder="Enter your email......."
-                    className="py-2 pl-2 outline-none mr-1"
+                    placeholder="Email"
+                    className="py-2 pl-2 outline-none mr-1 text-slate-700"
                   />
                   <button className="bg-orange-900 text-white py-2 px-6 rounded-sm font-bold hover:bg-orange-700 transition duration-500 ease-linear">
                     Submit
